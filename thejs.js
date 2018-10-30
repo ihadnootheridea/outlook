@@ -245,8 +245,8 @@ function myStory(parentJson, folder, addToDom) {
 
 function getRedditDomain() {
   return (window.location.protocol === 'https:') ?
-    'https://pay.reddit.com' :
-    'http://www.reddit.com';
+    'https://pay.reddit.de' :
+    'http://www.reddit.de';
 }
 
 function populateStory(id) {
@@ -831,7 +831,7 @@ function spawnCommandWindow() {
   usage += "Add subreddits:\n";
   usage += "\tIn the TO field, type subreddit [subredditname]+\n\texample: subreddit starcraft linux programming\n";
   usage += "\n\nGo to a comments page:\n\tJust paste in the link in the to field and hit send! example:\n";
-  usage += "\thttp://www.reddit.com/r/gaming/comments/jkiu2/battlefield_3_caspian_border_gameplay_hd";
+  usage += "\thttp://www.reddit.de/r/gaming/comments/jkiu2/battlefield_3_caspian_border_gameplay_hd";
   var asd = new myWindow('', '', '', '', '', usage, true);
 }
 
